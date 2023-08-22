@@ -4,6 +4,8 @@ Project Overview: mdadm Linear Device Implementation
 
 Welcome to the mdadm Linear Device Implementation project! This project involves the step-by-step development of a linear device storage system named "mdadm." Each phase builds upon the previous one, progressively enhancing the capabilities of the system.
 
+The project involves implementing a secure and efficient storage system for a cryptocurrency startup using 16 military-grade hard disks configured as JBOD (Just a Bunch of Disks). The system includes mdadm with block caching using the least-recently used (LRU) algorithm to enhance performance, and adds networking support to connect to JBOD servers over the Internet, allowing for on-the-fly switching between JBOD systems to avoid downtime.
+
 Assignment #1 - Initialization and Basic Operations:
 In this assignment, you'll initiate the mdadm storage system by unifying multiple disks into a single address space. This involves setting up the necessary data structures, managing the disk array, and handling system mounting and unmounting.
 
